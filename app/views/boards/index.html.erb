@@ -1,0 +1,8 @@
+<h1> Boards </h1>
+
+<% @boards.each do |bods| %>
+
+<div>
+<h3><%= link_to bods.name, board_path(bods) %>
+
+<% end %>
