@@ -3,6 +3,6 @@
 <% @lits.each do |li| %>
 
 <div>
-<h3><%= link_to li.name, board_lists_path %>
+<h3><%= link_to li.name, board_lists_path(board:[id]) %>
 
 <% end %>
